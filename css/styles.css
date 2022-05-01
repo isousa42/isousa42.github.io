@@ -214,7 +214,7 @@ p {
     background-color: var(--clr-dark);
     text-align: center;
     text-transform: uppercase;
-    color: var(--clr-light);
+    color: white;
     padding: 2rem;
 }
 
@@ -226,7 +226,7 @@ p {
 
 .categories a {
     text-decoration: none;
-    color: var(--clr-light);
+    color: white;
 }
 
 .categories h3 {
@@ -236,7 +236,7 @@ p {
 }
 
 .categories img {
-    border: 3px solid var(--clr-light);
+    border: 3px solid white;
 }
 
 
