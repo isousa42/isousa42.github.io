@@ -1,0 +1,257 @@
+
+:root {
+    --clr-dark: #171123;
+    --clr-light: #E5FFDE;
+    --clr-pink: #EF476F;
+    --clr-yellow: #FFD23F;
+    --clr-blue: #1AC8ED;
+
+    --ff-courier: 'Courier New', monospace;
+    --ff-cursive: 'Brush Script MT', cursive;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 1.125rem;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    font-family: var(--ff-courier);
+}
+
+h2,
+h3 {
+    line-height: 0.9;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.60em;
+}
+
+p {
+    margin-bottom: 0.85em;
+}
+
+/* hero */
+
+.second {
+    display: none;
+}
+
+.bar{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+}
+
+.hero {
+    display:flex;
+    justify-content: right;
+}
+
+.hero h2{
+    position: absolute;
+    color: white;
+    text-shadow: 0px 0px 0 rgb(228,228,228),
+                 1px -1px 0 rgb(201,201,201),
+                 2px -2px 0 rgb(175,175,175),
+                 3px -3px 0 rgb(148,148,148),
+                 4px -4px 0 rgb(121,121,121),
+                 5px -5px 0 rgb(94,94,94),
+                 6px -6px 0 rgb(68,68,68),
+                 7px -7px 0 rgb(41,41,41),
+                 8px -8px 0 rgb(14,14,14),
+                 9px -9px  0 rgb(-13,-13,0),
+                 10px -10px 9px rgba(0,0,0,1),
+                 10px -10px 1px rgba(0,0,0,0.5),
+                 0px 0px 9px rgba(0,0,0,.2);
+    top: 140vw;
+    text-transform: uppercase;
+    transform: scaleX(-1);
+    font-weight: 900;
+    font-size: 25vw;
+}
+
+@media screen and (min-width: 600px){
+    .first {
+        display: none;
+    }
+    .second {
+        display: initial;
+        transform: scaleX(-1);
+    }
+    .hero h2 {
+        top: 45vw;
+        font-size: 12vw;
+    }
+}
+
+@media screen and (min-width: 1000px){
+
+    .hero h2 {
+        top: 40vw;
+    }
+}
+
+/* intro */
+
+.intro-container {
+    display: none;
+}
+
+.intro {
+    text-align: center;
+    background-color: var(--clr-dark);
+    margin: 0;
+    padding: 0;
+}
+.intro-big {
+    display: none;
+}
+
+.intro h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 1.3em;
+    font-family: var(--ff-cursive);
+    padding-top: 3rem;
+    color: var(--clr-light);
+
+}
+
+.intro p {
+    color: var(--clr-light);
+    padding: 1.125rem;
+}
+
+.intro img {
+    background-color: white;
+}
+
+.s-p {
+    display: none;
+}
+
+@media screen and (min-width: 900px){
+    .intro h2 {
+        padding-bottom: 3rem;
+        font-size: 2rem;
+    }
+    .intro br {
+        display:none;
+    }
+    .intro-small {
+        display: none;
+    }
+    .intro-big{
+        background-color: white;
+        display: flex;
+    }
+    .intro-big p {
+        padding-top: 5rem;
+        color: black;
+        padding-right: 5rem;
+    }
+    .intro img {
+        width: auto;
+        max-height: 35rem;
+    }
+    
+}
+
+@media screen and (min-width: 1000px){
+    .intro-container {
+        display: initial;
+        width: 100%;
+        height: 25vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+    }
+    .intro-container .icon {
+        padding: 20px;
+        animation: icon3d 200ms 10;
+        color: var(--clr-dark);
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .s-p {
+        display: initial;
+    }
+    .intro-big p {
+        padding-top: 5rem;
+        color: black;
+        padding-right: 4rem;
+        padding-left: 0;
+    }
+}
+
+/* categories */
+
+.categories {
+    background-color: var(--clr-dark);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--clr-light);
+    padding: 2rem;
+}
+
+.categories h2 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+}
+
+.categories a {
+    text-decoration: none;
+    color: var(--clr-light);
+}
+
+.categories h3 {
+
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.categories img {
+    border: 3px solid var(--clr-light);
+}
+
+
+@media screen and (min-width: 600px){
+    .categories br {
+        display: none;
+    }
+    .cat-big{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .cat-big img {
+        height: 25vw;
+        width: auto;
+    }
+}
+
