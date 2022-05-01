@@ -1,7 +1,7 @@
 
 :root {
     --clr-dark: #171123;
-    --clr-light: #E5FFDE;
+    --clr-light: white;
     --clr-pink: #EF476F;
     --clr-yellow: #FFD23F;
     --clr-blue: #1AC8ED;
@@ -132,7 +132,7 @@ p {
     font-size: 1.5rem;
     font-weight: bolder;
     line-height: 1.3em;
-    font-family: var(--ff-cursive);
+    font-family: var(--ff-courier);
     padding-top: 3rem;
     color: var(--clr-light);
 
