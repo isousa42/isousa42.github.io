@@ -1,5 +1,6 @@
 /* navigation */
 
+
 .logo a{
     color: white;
     text-decoration: none;
@@ -99,6 +100,13 @@ nav a:hover {
 .nav-toggle:checked ~ nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
+}
+
+.bar{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
 }
 
 @media screen and (min-width: 940px) {
