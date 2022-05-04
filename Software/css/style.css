@@ -1,7 +1,7 @@
 
 :root {
     --clr-dark: #171123;
-    --clr-light: #E5FFDE;
+    --clr-light: white;
     --clr-pink: #EF476F;
     --clr-yellow: #FFD23F;
     --clr-blue: #1AC8ED;
@@ -104,14 +104,14 @@ p {
     background-color: var(--clr-dark);
     text-align: center;
     text-transform: uppercase;
-    color: var(--clr-light);
+    color: white;
     padding: 2rem;
     padding-top: 3rem;
 }
 
 .projects a {
     text-decoration: none;
-    color: var(--clr-light);
+    color: white;
 }
 
 
