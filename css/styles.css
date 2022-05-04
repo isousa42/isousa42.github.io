@@ -132,7 +132,7 @@ p {
     font-size: 1.5rem;
     font-weight: bolder;
     line-height: 1.3em;
-    font-family: var(--ff-cursive);
+    font-family: var(--ff-courier);
     padding-top: 3rem;
     color: var(--clr-light);
 
