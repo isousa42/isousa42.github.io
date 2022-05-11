@@ -1,0 +1,110 @@
+
+:root {
+    --clr-dark: #171123;
+    --clr-light: white;
+    --clr-pink: #EF476F;
+    --clr-yellow: #FFD23F;
+    --clr-blue: #1AC8ED;
+
+    --ff-courier: 'Courier New', monospace;
+    --ff-cursive: 'Brush Script MT', cursive;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 1.125rem;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    font-family: var(--ff-courier);
+}
+
+h2,
+h3 {
+    line-height: 0.9;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.60em;
+}
+
+p {
+    margin-bottom: 0.85em;
+}
+
+/* content */
+
+.logo h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.content { 
+    padding: 1rem;
+    background-color: #171123;
+    color: white;
+}
+
+.content img {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.329);
+    border: 10px solid #171123;
+}
+
+.content h2 {
+    font-size: 0.70rem;
+    font-style: italic;
+    font-weight: 100;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 650px) {
+    .content {
+        line-height: 0;
+
+        -webkit-column-count: 2;
+        -webkit-column-gap:   0px;
+        -moz-column-count:    2;
+        -moz-column-gap:      0px;
+        column-count:         2;
+        column-gap:           0px; 
+    }
+    .content img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .content {
+        -webkit-column-count: 3;
+        -moz-column-count:    3;
+        column-count:         3;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .content {
+        -webkit-column-count: 4;
+        -moz-column-count:    4;
+        column-count:         4;
+    }
+}

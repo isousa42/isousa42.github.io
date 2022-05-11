@@ -1,0 +1,51 @@
+
+:root {
+    --clr-dark: #171123;
+    --clr-light: white;
+    --clr-pink: #EF476F;
+    --clr-yellow: #FFD23F;
+    --clr-blue: #1AC8ED;
+
+    --ff-courier: 'Courier New', monospace;
+    --ff-cursive: 'Brush Script MT', cursive;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 1.125rem;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    font-family: var(--ff-courier);
+}
+
+h2,
+h3 {
+    line-height: 0.9;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.60em;
+}
+
+p {
+    margin-bottom: 0.85em;
+}

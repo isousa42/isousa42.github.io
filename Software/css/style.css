@@ -53,7 +53,9 @@ p {
 
 
 /* index */
-
+.logo h1 {
+    font-family: 'Permanent Marker', cursive;
+}
 .second {
     display: none;
 }
@@ -85,6 +87,8 @@ p {
     font-weight: 900;
     font-size: 15vw;
 }
+
+
 @media screen and (min-width: 600px){
     .first {
         display: none;
@@ -103,17 +107,21 @@ p {
 .projects {
     background-color: var(--clr-dark);
     text-align: center;
-    text-transform: uppercase;
     color: white;
     padding: 2rem;
     padding-top: 3rem;
 }
+
 
 .projects a {
     text-decoration: none;
     color: white;
 }
 
+.projects h3 {
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+}
 
 
 .project-container {
@@ -125,6 +133,7 @@ p {
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
+
 
 @media screen and (min-width: 600px){
     .project-container img {

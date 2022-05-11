@@ -8,6 +8,8 @@
 
     --ff-courier: 'Courier New', monospace;
     --ff-cursive: 'Brush Script MT', cursive;
+    --ff-glitch: 'Rubik Glitch', cursive;
+
 }
 
 *,
@@ -51,6 +53,11 @@ p {
 }
 
 /* hero */
+
+.logo h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
 
 .second {
     display: none;
@@ -201,7 +208,7 @@ p {
         display: initial;
     }
     .intro-big p {
-        padding-top: 5rem;
+        padding-top: 8rem;
         color: black;
         padding-right: 4rem;
         padding-left: 0;
@@ -221,6 +228,8 @@ p {
 .categories h2 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+    font-family: 'Orbitron', sans-serif;
+
 
 }
 
@@ -232,6 +241,8 @@ p {
 .categories h3 {
     padding-top: 1rem;
     padding-bottom: 3rem;
+    font-family: 'Orbitron', sans-serif;
+
 }
 
 .categories img {
@@ -253,4 +264,3 @@ p {
         width: auto;
     }
 }
-
