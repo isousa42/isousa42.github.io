@@ -1,0 +1,94 @@
+
+.come {
+    padding: 1rem;
+    text-align: center;
+    background-color: #171123;
+    color: white;
+}
+
+.come h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0px 0px 0 rgb(228,228,228),
+    1px -1px 0 rgb(201,201,201),
+    2px -2px 0 rgb(175,175,175),
+    3px -3px 0 rgb(148,148,148),
+    4px -4px 0 rgb(121,121,121),
+    5px -5px 0 rgb(94,94,94),
+    6px -6px 0 rgb(68,68,68),
+    7px -7px 0 rgb(41,41,41),
+    8px -8px 0 rgb(14,14,14),
+    9px -9px  0 rgb(-13,-13,0),
+    10px -10px 9px rgba(0,0,0,1),
+    10px -10px 1px rgba(0,0,0,0.5),
+    0px 0px 9px rgba(0,0,0,.2);
+}
+
+.come h2 {
+    font-size: 1.7rem;
+    padding-bottom: 1.5rem;
+    line-height: 2.5rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.come p {
+    font-size: 1rem;
+}
+
+.come h3 {
+    font-size: 2rem;
+    padding-top: 2rem;
+    text-shadow: 0px 0px 0 rgb(228,228,228),
+    1px -1px 0 rgb(201,201,201),
+    2px -2px 0 rgb(175,175,175),
+    3px -3px 0 rgb(148,148,148),
+    4px -4px 0 rgb(121,121,121),
+    5px -5px 0 rgb(94,94,94),
+    6px -6px 0 rgb(68,68,68),
+    7px -7px 0 rgb(41,41,41),
+    8px -8px 0 rgb(14,14,14),
+    9px -9px  0 rgb(-13,-13,0),
+    10px -10px 9px rgba(0,0,0,1),
+    10px -10px 1px rgba(0,0,0,0.5),
+    0px 0px 9px rgba(0,0,0,.2);
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+
+.container {
+    width: 100%;
+    height: 25vh;
+    background-color: #171123;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    padding: 20px;
+    animation: icon3d 200ms 10;
+    color: #fff;
+  }
+  .icon:hover {
+      animation: icon3d 200ms infinite;
+  }
+  
+  @keyframes icon3d {
+    0% {
+      text-shadow: 5px 4px rgba(244,67,54,1), -5px -6px rgba(33,150,243,1);
+    }
+    25% {
+      text-shadow: -5px -6px rgba(244,67,54,1), 5px 4px rgba(33,150,243,1);
+    }
+    50% {
+      text-shadow: 5px -4px rgba(244,67,54,1), -8px 4px rgba(33,150,243,1);
+    }
+    75% {
+      text-shadow: -8px -4px rgba(244,67,54,1), -5px -4px rgba(33,150,243,1);
+    }
+    100% {
+      text-shadow: -5px 0 rgba(244,67,54,1), 5px -4px rgba(33,150,243,1);
+    }
+  }
